@@ -19,7 +19,6 @@ export default function SearchResultPage({ params }) {
       .includes(processedSearchInput.toLocaleLowerCase())
   );
 
-  console.log(params);
   return (
     <div>
       <p className="fw-bold fs-4 text-center my-0">
